@@ -1,0 +1,11 @@
+PAPER VALIDATION GATE V3
+========================
+Baseline success [PID FixedLQR GS-LQR MPC]: 0 1 1 1 
+Baseline beta RMSE deg: 32.291 0.001 0.001 0.013 
+Monte Carlo success rates %: 0.00 100.00 100.00 87.00 
+All baseline trajectories finite: 1
+All Monte Carlo metrics finite: 1
+Advanced nominal stabilization pass: 1
+GS-LQR/MPC robustness gate >=50%: 1
+NOTE: PID is a comparison baseline; poor PID performance is reportable and does not by itself invalidate the study.
+STATUS: PASS - numerical results satisfy the V3 research validation gate.

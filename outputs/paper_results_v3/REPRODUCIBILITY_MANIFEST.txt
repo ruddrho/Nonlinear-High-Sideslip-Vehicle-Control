@@ -1,0 +1,23 @@
+RESEARCH-READY DRIFT CONTROL REPRODUCIBILITY MANIFEST
+================================================
+Random seed: 20260930
+Research dt: 0.02 s
+Research duration: 24 s
+Monte Carlo dt: 0.04 s
+Monte Carlo cases/controller: 100
+Common command-rate limits: 0
+Steering rate: 120.000000 deg/s
+Throttle rate: 1.800000 1/s
+Controllers: PID, Fixed LQR, Gain-Scheduled LQR, Constrained MPC
+Scenarios:
+  1. Dry-road baseline (baseline)
+  2. Wet-road friction drop (wet_road)
+  3. Crosswind impulse (crosswind)
+  4. +15% mass / +10% inertia mismatch (payload)
+  5. High sensor noise (sensor_noise)
+  6. Combined worst-case challenge (combined)
+Controller benchmark scenarios 1-4 use truth-state feedback; scenarios 5-6 use common EKF output feedback.
+Monte Carlo isolates matched parametric model mismatch around the nominal reference; deterministic disturbances are evaluated separately.
+Physical actuator dynamics/rate limits are in the plant. Additional common command slew limiting is disabled; MPC explicit slew constraints are evaluated as a design feature.
+Matched Monte Carlo perturbations are reused across all controllers.
+Monte Carlo success rates: 0.00 100.00 100.00 87.00 %

@@ -1,0 +1,1 @@
+Reference visuals, 4-wheel plant, gain schedule, constrained MPC, EKF and research-ready suite smoke tests passed.

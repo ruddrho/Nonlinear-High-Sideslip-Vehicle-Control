@@ -1,0 +1,38 @@
+FINAL CLEAN RUN ORDER
+=====================
+
+Use MATLAB with this folder as the Current Folder.
+Do not edit the source files between these runs.
+
+1) self_test
+   Required: SELF TEST PASSED - INCLUDING RESEARCH-READY SUITE
+   Output check: outputs/SELF_TEST_OK.txt
+
+2) generate_paper_results
+   Let the full benchmark + 100-case Monte Carlo pipeline finish.
+   Required: PAPER VALIDATION GATE: PASS (or equivalent PASS status)
+   Main research folder: outputs/paper_results_v3/
+
+3) main
+   Generates the final visual simulation outputs with the clarified
+   yaw-rate display and corrected HUD semantics (trajectory, states,
+   controls, tyre forces, reference frame, simulation_data.mat).
+   Research is intentionally OFF here because Step 2 already generated
+   the publication-oriented research results.
+
+4) record_github_video
+   Generates the final 16:9 GitHub/portfolio MP4 with MATLAB interaction
+   toolbars disabled in the captured frames. (HiDPI MATLAB systems may
+   encode the 1280x720 figure canvas as 1920x1080 video.)
+   Expected video: outputs/drift_simulation_16x9.mp4
+
+AFTER ALL FOUR STEPS
+====================
+- Do not change the code.
+- Open the MP4 once and confirm it plays correctly.
+- ZIP THIS ENTIRE PROJECT FOLDER, including the populated outputs/ folder.
+- Upload that ZIP back to ChatGPT for final result analysis and final
+  GitHub repository packaging/report/README generation.
+
+If any MATLAB command shows a red error, stop and send the error before
+continuing to the next step.

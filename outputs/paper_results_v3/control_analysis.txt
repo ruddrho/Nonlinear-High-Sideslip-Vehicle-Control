@@ -1,0 +1,26 @@
+CONTROL SYSTEM ANALYSIS - 4-WHEEL PLANT, 30 km/h, beta=-30 deg
+
+Augmented state: [vx vy r deltaAct throttleAct]
+Controllability rank: 5 / 5
+Observability rank:   5 / 5
+
+A matrix:
+-0.1230867  0.7623664 -5.311125 -1.701719  9.062329
+-1.490278 -1.027289 -10.34877  11.95435 -7.62905
+-0.3134563 -0.840439 -1.045779  9.259229  5.686341
+ 0  0  0 -13.33333  0
+ 0  0  0  0 -8.333333
+
+B matrix:
+ 0  0
+ 0  0
+ 0  0
+ 13.33333  0
+ 0  8.333333
+
+Closed-loop poles:
+-3.77263 +0i
+-16.6678 +11.736i
+-16.6678 -11.736i
+-13.7329 +10.7161i
+-13.7329 -10.7161i

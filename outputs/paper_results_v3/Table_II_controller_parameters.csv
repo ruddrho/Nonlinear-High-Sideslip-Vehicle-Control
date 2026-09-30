@@ -1,0 +1,11 @@
+Item,Value
+LQR Q,"[1           4           8         0.8         0.4]"
+LQR R,"[1.2         0.5]"
+Gain schedule speeds km/h,"[30           35           40]"
+Gain schedule abs beta deg,"[30           35           40]"
+MPC horizon,10
+MPC projected-gradient iterations,16
+Steering command rate limit deg/s,120.000000
+Throttle command rate limit 1/s,1.800000
+Research sample time s,0.020000
+Random seed,20260930

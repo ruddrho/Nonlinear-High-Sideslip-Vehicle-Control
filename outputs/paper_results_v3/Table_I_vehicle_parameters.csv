@@ -1,0 +1,14 @@
+Parameter,Symbol,Value,Unit
+Mass,"m",1280,kg
+Yaw inertia,"Iz",2100,kg m^2
+CG to front axle,"a",1.15,m
+CG to rear axle,"b",1.45,m
+Track width,"track",1.55,m
+CG height,"hCG",0.48,m
+Nominal friction,"mu",1.12,-
+Front cornering stiffness,"Caf",76000,N/rad
+Rear cornering stiffness,"Car",82000,N/rad
+Max drive force,"Fdrive,max",12000,N
+Max steering,"delta,max",38,deg
+Steering actuator time constant,"tau_delta",0.075,s
+Throttle actuator time constant,"tau_T",0.12,s

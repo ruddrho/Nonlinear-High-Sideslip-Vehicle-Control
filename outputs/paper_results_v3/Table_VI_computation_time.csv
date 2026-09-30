@@ -1,0 +1,5 @@
+Controller,Mean_Compute_ms,Max_Compute_ms
+PID,0.00330480,0.03210000
+Fixed LQR,0.00549423,0.06210000
+Gain-Scheduled LQR,0.02421767,0.15130000
+Constrained MPC,0.47275897,1.11930000
