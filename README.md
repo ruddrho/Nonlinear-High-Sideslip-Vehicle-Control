@@ -1,6 +1,6 @@
 <p align="center">
 
-![MATLAB](https://img.shields.io/badge/MATLAB-Required-orange?style=for-the-badge)
+![MATLAB](https://img.shields.io/badge/MATLAB-Control%20Systems-orange?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Validation](https://img.shields.io/badge/Simulation%20Validation-PASS-brightgreen?style=for-the-badge)
 ![Controllers](https://img.shields.io/badge/Controllers-PID%20%7C%20LQR%20%7C%20GS--LQR%20%7C%20MPC-blue?style=for-the-badge)
@@ -10,7 +10,6 @@
 ![Research](https://img.shields.io/badge/Project-Control%20Systems%20Research-blueviolet?style=for-the-badge)
 
 </p>
-
 # Comparative Nonlinear High-Sideslip Vehicle Stabilization
 
 ### PID vs Fixed LQR vs Gain-Scheduled LQR vs Constrained MPC with EKF State Estimation
