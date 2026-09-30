@@ -20,7 +20,7 @@
 **Final Validated Run:** 30 September 2026  
 **Validation Status:** PASS
 
-> This repository is a simulation and control-engineering research project. It is not a real-vehicle operating guide, and the controllers have not been validated on a physical vehicle.
+
 > This repository is a simulation and control-engineering research
 > project. It is not a real-vehicle operating guide, and the controllers
 > have not been validated on a physical vehicle.
