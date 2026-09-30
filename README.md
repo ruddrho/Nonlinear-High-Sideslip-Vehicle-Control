@@ -1,13 +1,26 @@
+<p align="center">
+
+![MATLAB](https://img.shields.io/badge/MATLAB-Control%20Systems-orange?style=for-the-badge)
+![Validation](https://img.shields.io/badge/Simulation%20Validation-PASS-brightgreen?style=for-the-badge)
+![Controllers](https://img.shields.io/badge/Controllers-PID%20%7C%20LQR%20%7C%20GS--LQR%20%7C%20MPC-blue?style=for-the-badge)
+![Estimator](https://img.shields.io/badge/State%20Estimator-EKF-purple?style=for-the-badge)
+![Monte Carlo](https://img.shields.io/badge/Monte%20Carlo-100%20Cases%2FController-success?style=for-the-badge)
+![Dynamics](https://img.shields.io/badge/Model-Nonlinear%20Vehicle%20Dynamics-informational?style=for-the-badge)
+![Research](https://img.shields.io/badge/Project-Control%20Systems%20Research-blueviolet?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Research%20Ready-brightgreen?style=for-the-badge)
+
+</p>
+
 # Comparative Nonlinear High-Sideslip Vehicle Stabilization
 
-**PID vs Fixed LQR vs Gain-Scheduled LQR vs Constrained MPC with EKF
-State Estimation**
+### PID vs Fixed LQR vs Gain-Scheduled LQR vs Constrained MPC with EKF State Estimation
 
 **Author:** Ruddrho Mollik  
 **Platform:** MATLAB  
-**Final validated run:** 30 September 2026  
-**Validation status:** **PASS**
+**Final Validated Run:** 30 September 2026  
+**Validation Status:** PASS
 
+> This repository is a simulation and control-engineering research project. It is not a real-vehicle operating guide, and the controllers have not been validated on a physical vehicle.
 > This repository is a simulation and control-engineering research
 > project. It is not a real-vehicle operating guide, and the controllers
 > have not been validated on a physical vehicle.
